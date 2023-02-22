@@ -20,7 +20,7 @@ class NetworkService {
 
   static Future<GBData> getDetails(GBLatLng pos) async {
     var request = http.Request('GET',
-        Uri.parse('$PATH/reverse?lat=${pos.lat}&lon=${pos.lng}&format=jsonv2'));
+        Uri.parse('$PATH/reverse?lat=${pos.lat}&lon=${pos.lng}&accept-language=es&format=jsonv2'));
 
     http.StreamedResponse response = await request.send();
 
