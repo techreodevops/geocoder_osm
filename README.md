@@ -1,5 +1,3 @@
-![](https://raw.githubusercontent.com/flutterbuddy1/geocoder_buddy/main/banner.png)
-
 # Features
 * Easy To Use
 * Fast & Secure
@@ -73,10 +71,6 @@ GBData data = await GeocoderBuddy.findDetails(position);
   String country;
   String countryCode;
 ```
-# Buy Me A Coffee
-<a href="https://www.buymeacoffee.com/flutterbuddy">
-    <img src="https://www.buymeacoffee.com/assets/img/guidelines/download-assets-1.svg" height="50" target="_flutterbuddy">
-</a>
 
 # License
 
